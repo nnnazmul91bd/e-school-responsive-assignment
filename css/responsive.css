@@ -1,0 +1,39 @@
+@media (max-width: 1399px) {
+
+	.container {
+		width: 1000px;}
+		h1 {font-size: 41px;}
+		p {font-size: 15px;line-height: 1.5;}
+	.feature {
+    padding: 44px 15px;
+}
+}
+
+
+@media (max-width: 1199px) {
+
+	.container {}
+}
+
+
+@media (max-width: 991px) {
+
+	.container {}
+}
+
+
+@media (max-width: 767px) {
+
+	.container {}
+}
+
+
+@media (max-width: 575px) {
+
+	.container {}
+}
+
+@media (max-width: 400px) {
+
+	.container {}
+}

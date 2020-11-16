@@ -1,0 +1,267 @@
+* { margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	flex: 0 0 auto;
+}
+body {
+	font-family: 'Mulish', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+a, a:hover {
+	text-decoration: none;
+
+}
+
+.pad-y {
+}
+.container {
+    width: 1100px;
+    margin: auto;
+ }
+ .flex {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+.col-1-4 {
+    width: 25%;
+    padding: 15px;
+}
+.col-1-3{width: 33.33%;padding: 15px;}
+.heading {
+    margin: auto;
+    width: 1100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 21px;
+}
+.heading h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #3a3e53;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    word-spacing: 1px;
+    padding-right: 116px;
+    padding-top: 11px;
+    padding-bottom: 20px;
+}
+h1 span {
+    color: #21B573;
+}
+p {
+    font-size: 18px;
+    color: #808080;
+    line-height: 2;
+    padding-right: 140px;
+    padding-bottom: 39px;
+}
+
+
+/****** hero section ********/
+.hero-section {background-color: #F0FFF0;padding-bottom: 80px;}
+header { padding: 22px 0px; }
+.logo {
+    width: 15%;
+    flex: 0 0 auto;
+}
+.logo a {}
+.logo a img {}
+nav {
+    width: 85%;
+}
+nav ul {
+   
+    justify-content: flex-end;
+}
+nav ul li {/* padding-left: 5px; *//* padding-right: 5px; */}
+nav ul li a {
+    color: #333;
+    font-size: 15px;
+    padding: 11px 30px;
+    border-radius: 30px;
+    display: block;
+    font-weight: 600;
+}
+nav ul li a:hover {
+    background: #21B573;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.banner-section {
+    width: 1100px;
+    margin: auto;
+} 
+.banner-content {
+    width: 50%;
+    padding-top: 67px;
+}
+.banner-content span {}
+
+h4 {
+    color: #ff3636;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn {
+    background: #21b573;
+    border-radius: 30px;
+    padding: 12px 35px;
+    font-size: 15px;
+    color: white;
+}
+.btn:hover {}
+.banner-img {
+    width: 50%;
+    padding: 13px;
+}
+.banner-img img {}
+/****** hero section ********/
+
+
+/****** feature section ********/
+.feature-section {
+    margin-top: 30px;
+}
+.feature {
+    background: #F8FFFB;
+    padding: 69px 27px;
+    border-radius: 15px;
+    text-align: center;
+}
+.feature:hover {
+    box-shadow: 0px 10px 20px 0 #00000026;
+    transition: 0.5s;
+    background: white;
+}
+.feature img {
+    height: 78px;
+}
+.feature h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #4f4e4e;
+    margin-top: 20px;
+}
+.feature p {
+    padding: 0;
+}
+/****** feature section ********/
+
+
+
+/****** course section ********/
+.course-section {}
+.course {
+    padding: 15px 15px;
+    background-color: aliceblue;
+    border-radius: 19px;
+    box-shadow: 0px 10px 20px 0 #0000000d;
+    transition: 0.5s;
+    background: white;
+}
+.course img {
+    margin-bottom: 20px;
+}
+.course h3 {font-size: 25px;font-weight: 800;color: #4f4e4e;}
+.course span {
+    color: #808080;
+    font-size: 16px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 15px 0px;
+}
+.course .btn {
+    display: inline-block;
+}
+.course ul {
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.course ul li i{
+    color: #808080;
+    font-size: 16px;
+}
+/****** course section ********/
+
+
+/****** testimonial section ********/
+.testimonial-section {
+    margin-bottom: 100px;
+}
+.testimonial-section .container {
+    width: 800px;
+}
+.testimonial-section .flex {align-items: center;}
+.client-img {
+    width: 18%;
+    padding: 15px;
+}
+.client-img img {}
+.client-content {
+    width: 77%;
+    /* padding: 30px 99px; */
+    /* padding: 15px; */
+    padding-left: 32px;
+}
+.client-content p {
+    color: #43475b;
+    line-height: 2;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0;
+}
+/****** testimonial section ********/
+
+
+/****** footer section ********/
+footer {
+    background-color: #282531;
+    color: white;
+    padding: 50px;
+}
+.tagline {
+    padding-right: 87px;
+    width: 40%;
+}
+footer .col-1-4 {
+    width: 20%;
+}
+footer p {padding: 0;line-height: 2;font-size: 15px;color: white;}
+footer ul {
+    line-height: 1.5;
+}
+footer ul li{
+    font-size: 18px;
+}
+footer ul li strong{}
+footer ul li a{
+    color: #aeaeae;
+    font-size: 15px;
+}
+footer ul li a:hover {}
+.copyright {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15px;
+}
+.copyright a{
+    color: #21b573;
+}
+.copyright a:hover {
+    text-decoration: underline;
+}
